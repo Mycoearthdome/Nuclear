@@ -126,6 +126,353 @@ elements = [
     {"name": "Oganesson", "Z": 118, "A": 294, "E_electron": 13.50},
 ]
 
+primordial_molecules = {
+    "water": [
+        {"element": "Hydrogen", "count": 2},
+        {"element": "Oxygen", "count": 1}
+    ],
+    "methane": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Hydrogen", "count": 4}
+    ],
+    "ammonia": [
+        {"element": "Nitrogen", "count": 1},
+        {"element": "Hydrogen", "count": 3}
+    ],
+    "carbon_dioxide": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Oxygen", "count": 2}
+    ],
+    "hydrogen_cyanide": [
+        {"element": "Hydrogen", "count": 1},
+        {"element": "Carbon", "count": 1},
+        {"element": "Nitrogen", "count": 1}
+    ],
+    "formaldehyde": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Hydrogen", "count": 2},
+        {"element": "Oxygen", "count": 1}
+    ],
+    "hydrogen_sulfide": [
+        {"element": "Hydrogen", "count": 2},
+        {"element": "Sulfur", "count": 1}
+    ],
+    "carbon_monoxide": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Oxygen", "count": 1}
+    ],
+    "diatomic_hydrogen": [
+        {"element": "Hydrogen", "count": 2}
+    ],
+    "diatomic_nitrogen": [
+        {"element": "Nitrogen", "count": 2}
+    ],
+    "diatomic_oxygen": [
+        {"element": "Oxygen", "count": 2}
+    ],
+    "ethanol": [
+        {"element": "Carbon", "count": 2},
+        {"element": "Hydrogen", "count": 6},
+        {"element": "Oxygen", "count": 1}
+    ],
+    "glucose": [
+        {"element": "Carbon", "count": 6},
+        {"element": "Hydrogen", "count": 12},
+        {"element": "Oxygen", "count": 6}
+    ],
+    "acetic_acid": [
+        {"element": "Carbon", "count": 2},
+        {"element": "Hydrogen", "count": 4},
+        {"element": "Oxygen", "count": 2}
+    ],
+    "sulfur_dioxide": [
+        {"element": "Sulfur", "count": 1},
+        {"element": "Oxygen", "count": 2}
+    ],
+    "nitric_oxide": [
+        {"element": "Nitrogen", "count": 1},
+        {"element": "Oxygen", "count": 1}
+    ],
+    "ozone": [
+        {"element": "Oxygen", "count": 3}
+    ],
+    "propane": [
+        {"element": "Carbon", "count": 3},
+        {"element": "Hydrogen", "count": 8}
+    ],
+    "butane": [
+        {"element": "Carbon", "count": 4},
+        {"element": "Hydrogen", "count": 10}
+    ],
+    "pentane": [
+        {"element": "Carbon", "count": 5},
+        {"element": "Hydrogen", "count": 12}
+    ],
+    "hexane": [
+        {"element": "Carbon", "count": 6},
+        {"element": "Hydrogen", "count": 14}
+    ],
+    "benzene": [
+        {"element": "Carbon", "count": 6},
+        {"element": "Hydrogen", "count": 6}
+    ],
+    "toluene": [
+        {"element": "Carbon", "count": 7},
+        {"element": "Hydrogen", "count": 8}
+    ],
+    "xylene": [
+        {"element": "Carbon", "count": 8},
+        {"element": "Hydrogen", "count": 10}
+    ],
+    "ethene": [
+        {"element": "Carbon", "count": 2},
+        {"element": "Hydrogen", "count": 4}
+    ],
+    "ethyne": [
+        {"element": "Carbon", "count": 2},
+        {"element": "Hydrogen", "count": 2}
+    ],
+    "chloroform": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Hydrogen", "count": 1},
+        {"element": "Chlorine", "count": 3}
+    ],
+    "carbon_tetrachloride": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Chlorine", "count": 4}
+    ],
+    "hydrochloric_acid": [
+        {"element": "Hydrogen", "count": 1},
+        {"element": "Chlorine", "count": 1}
+    ],
+    "sodium_chloride": [
+        {"element": "Sodium", "count": 1},
+        {"element": "Chlorine", "count": 1}
+    ],
+    "potassium_permanganate": [
+        {"element": "Potassium", "count": 1},
+        {"element": "Manganese", "count": 1},
+        {"element": "Oxygen", "count": 4}
+    ],
+    "calcium_carbonate": [
+        {"element": "Calcium", "count": 1},
+        {"element": "Carbon", "count": 1},
+        {"element": "Oxygen", "count": 3}
+    ],
+    "magnesium_sulfate": [
+        {"element": "Magnesium", "count": 1},
+        {"element": "Sulfur", "count": 1},
+        {"element": "Oxygen", "count": 4}
+    ],
+    "phosphoric_acid": [
+        {"element": "Phosphorus", "count": 1},
+        {"element": "Hydrogen", "count": 3},
+        {"element": "Oxygen", "count": 4}
+    ],
+    "sulfuric_acid": [
+        {"element": "Sulfur", "count": 1},
+        {"element": "Hydrogen", "count": 2},
+        {"element": "Oxygen", "count": 4}
+    ],
+    "nitric_acid": [
+        {"element": "Nitrogen", "count": 1},
+        {"element": "Hydrogen", "count": 1},
+        {"element": "Oxygen", "count": 3}
+    ],
+    "hydrofluoric_acid": [
+        {"element": "Hydrogen", "count": 1},
+        {"element": "Fluorine", "count": 1}
+    ],
+    "ammonium_chloride": [
+        {"element": "Nitrogen", "count": 1},
+        {"element": "Hydrogen", "count": 4},
+        {"element": "Chlorine", "count": 1}
+    ],
+        "acetone": [
+        {"element": "Carbon", "count": 3},
+        {"element": "Hydrogen", "count": 6},
+        {"element": "Oxygen", "count": 1}
+    ],
+    "formic_acid": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Hydrogen", "count": 2},
+        {"element": "Oxygen", "count": 2}
+    ],
+    "hydrogen_peroxide": [
+        {"element": "Hydrogen", "count": 2},
+        {"element": "Oxygen", "count": 2}
+    ],
+    "propene": [
+        {"element": "Carbon", "count": 3},
+        {"element": "Hydrogen", "count": 6}
+    ],
+    "butene": [
+        {"element": "Carbon", "count": 4},
+        {"element": "Hydrogen", "count": 8}
+    ],
+    "cyclohexane": [
+        {"element": "Carbon", "count": 6},
+        {"element": "Hydrogen", "count": 12}
+    ],
+    "toluene": [
+        {"element": "Carbon", "count": 7},
+        {"element": "Hydrogen", "count": 8}
+    ],
+    "chlorine_trifluoride": [
+        {"element": "Chlorine", "count": 1},
+        {"element": "Fluorine", "count": 3}
+    ],
+    "nitrogen_trifluoride": [
+        {"element": "Nitrogen", "count": 1},
+        {"element": "Fluorine", "count": 3}
+    ],
+    "dichloromethane": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Hydrogen", "count": 2},
+        {"element": "Chlorine", "count": 2}
+    ],
+    "sodium_hydroxide": [
+        {"element": "Sodium", "count": 1},
+        {"element": "Oxygen", "count": 1},
+        {"element": "Hydrogen", "count": 1}
+    ],
+    "potassium_chloride": [
+        {"element": "Potassium", "count": 1},
+        {"element": "Chlorine", "count": 1}
+    ],
+    "calcium_hydroxide": [
+        {"element": "Calcium", "count": 1},
+        {"element": "Oxygen", "count": 1},
+        {"element": "Hydrogen", "count": 2}
+    ],
+    "sodium_bicarbonate": [
+        {"element": "Sodium", "count": 1},
+        {"element": "Carbon", "count": 1},
+        {"element": "Oxygen", "count": 3},
+        {"element": "Hydrogen", "count": 1}
+    ],
+    "ethyl_alcohol": [
+        {"element": "Carbon", "count": 2},
+        {"element": "Hydrogen", "count": 5},
+        {"element": "Oxygen", "count": 1}
+    ],
+    "acetylene": [
+        {"element": "Carbon", "count": 2},
+        {"element": "Hydrogen", "count": 2}
+    ],
+    "hydrogen_chloride": [
+        {"element": "Hydrogen", "count": 1},
+        {"element": "Chlorine", "count": 1}
+    ],
+    "silicon_dioxide": [
+        {"element": "Silicon", "count": 1},
+        {"element": "Oxygen", "count": 2}
+    ],
+    "arsenic_trioxide": [
+        {"element": "Arsenic", "count": 1},
+        {"element": "Oxygen", "count": 3}
+    ],
+    "boron_trifluoride": [
+        {"element": "Boron", "count": 1},
+        {"element": "Fluorine", "count": 3}
+    ],
+    "phosphine": [
+        {"element": "Phosphorus", "count": 1},
+        {"element": "Hydrogen", "count": 3}
+    ],
+    "silane": [
+        {"element": "Silicon", "count": 1},
+        {"element": "Hydrogen", "count": 4}
+    ],
+    "diborane": [
+        {"element": "Boron", "count": 2},
+        {"element": "Hydrogen", "count": 6}
+    ],
+    "tetrafluoromethane": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Fluorine", "count": 4}
+    ],
+    "nitrous_oxide": [
+        {"element": "Nitrogen", "count": 2},
+        {"element": "Oxygen", "count": 1}
+    ],
+    "sulfur_hexafluoride": [
+        {"element": "Sulfur", "count": 1},
+        {"element": "Fluorine", "count": 6}
+    ],
+    "phosphorus_trichloride": [
+        {"element": "Phosphorus", "count": 1},
+        {"element": "Chlorine", "count": 3}
+    ],
+    "methyl_chloride": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Hydrogen", "count": 3},
+        {"element": "Chlorine", "count": 1}
+    ],
+    "trichloromethane": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Hydrogen", "count": 1},
+        {"element": "Chlorine", "count": 3}
+    ],
+    "dichlorodifluoromethane": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Hydrogen", "count": 1},
+        {"element": "Chlorine", "count": 2},
+        {"element": "Fluorine", "count": 2}
+    ],
+    "tetrachloromethane": [
+        {"element": "Carbon", "count": 1},
+        {"element": "Chlorine", "count": 4}
+    ],
+    "perfluorocyclopropane": [
+        {"element": "Carbon", "count": 3},
+        {"element": "Fluorine", "count": 6}
+    ],
+    "tungsten_trioxide": [
+        {"element": "Tungsten", "count": 1},
+        {"element": "Oxygen", "count": 3}
+    ],
+    "molybdenum_trioxide": [
+        {"element": "Molybdenum", "count": 1},
+        {"element": "Oxygen", "count": 3}
+    ],
+    "chromium_trioxide": [
+        {"element": "Chromium", "count": 1},
+        {"element": "Oxygen", "count": 3}
+    ],
+    "germanium_dioxide": [
+        {"element": "Germanium", "count": 1},
+        {"element": "Oxygen", "count": 2}
+    ],
+    "antimony_trioxide": [
+        {"element": "Antimony", "count": 1},
+        {"element": "Oxygen", "count": 3}
+    ],
+    "bismuth_trioxide": [
+        {"element": "Bismuth", "count": 1},
+        {"element": "Oxygen", "count": 3}
+    ],
+    "cobalt_chloride": [
+        {"element": "Cobalt", "count": 1},
+        {"element": "Chlorine", "count": 2}
+    ],
+    "nickel_sulfate": [
+        {"element": "Nickel", "count": 1},
+        {"element": "Sulfur", "count": 1},
+        {"element": "Oxygen", "count": 4}
+    ],
+    "zinc_oxide": [
+        {"element": "Zinc", "count": 1},
+        {"element": "Oxygen", "count": 1}
+    ],
+    "copper_sulfate": [
+        {"element": "Copper", "count": 1},
+        {"element": "Sulfur", "count": 1},
+        {"element": "Oxygen", "count": 4}
+    ]
+}
+
+
 def calculate_cracking_frequency(energy_ev):
     # Convert energy from eV to Joules
     energy_J = energy_ev * eV_to_J
@@ -176,47 +523,30 @@ def calculate_molecule_properties(molecule):
 
     return molecule_properties
 
-# Example molecule: Water (H2O)
-water_molecule = [
-    {"element": "Hydrogen", "count": 2},
-    {"element": "Oxygen", "count": 1}
-]
-
-methane_molecule = [
-    {"element": "Carbon", "count": 1},
-    {"element": "Hydrogen", "count": 4}
-]
-
-# Calculate the molecule's properties
-molecule_properties = calculate_molecule_properties(water_molecule) #replace with you destination molecule
-
-# Print molecule's properties
-print(f"Molecular Weight: {molecule_properties['molecular_weight']} g/mol")
-print(f"Total Binding Energy: {molecule_properties['total_binding_energy']} eV")
-print(f"Total Electron Energy: {molecule_properties['total_electron_energy']} eV")
-print(f"Total Frequency Ratio: {molecule_properties['total_frequency_ratio']:.3e}")
-print(f"Molecule Cracking Frequency: {calculate_cracking_frequency(molecule_properties['total_binding_energy']):.2e} Hz")
-
-# Compute results for individual atoms in the molecule (same as before)
 results = []
-for atom in water_molecule: # replace with your destination molecule
-    element = next((e for e in elements if e['name'] == atom['element']), None)
-    if element:
-        Z = element["Z"]
-        A = element["A"]
-        E_electron = element["E_electron"]
-        E_bind = calculate_binding_energy(Z, A)
-        freq_ratio = calculate_frequency_ratio(Z, A, E_electron, E_bind)
-        results.append({
-            "Element": element["name"],
-            "Z/A": Z / A,
-            "E_bind (eV)": E_bind,
-            "E_electron (eV)": E_electron,
-            "Freq Ratio (f_electron / f_neutron)": freq_ratio,
-        })
+print(f"{'Molecule':<20}{'Molecule Cracking Frequency':<30}")
+for molecule in primordial_molecules:
+    molecule_properties = calculate_molecule_properties(primordial_molecules[molecule])
+    print(f"{molecule:<25}{calculate_cracking_frequency(molecule_properties['total_binding_energy']):.2e} Hz")
+    for atom in primordial_molecules[molecule]:
+        element = next((e for e in elements if e['name'] == atom['element']), None)
+        if element:
+            Z = element["Z"]
+            A = element["A"]
+            E_electron = element["E_electron"]
+            E_bind = calculate_binding_energy(Z, A)
+            freq_ratio = calculate_frequency_ratio(Z, A, E_electron, E_bind)
+            results.append({
+                "Molecule": molecule,
+                "Element": element["name"],
+                "Z/A": Z / A,
+                "E_bind (eV)": E_bind,
+                "E_electron (eV)": E_electron,
+                "Freq Ratio (f_electron / f_neutron)": freq_ratio,
+            })
 
 # Print results in tabular format for individual atoms
-print(f"\n{'Element':<15}{'Z/A':<10}{'E_bind (eV)':<15}{'E_electron (eV)':<20}{'Freq Ratio':<15}")
+print(f"\n{'Molecule':<24}{'Element':<15}{'Z/A':<10}{'E_bind (eV)':<15}{'E_electron (eV)':<20}{'Freq Ratio':<15}")
 print("-" * 65)
 for result in results:
-    print(f"{result['Element']:<15}{result['Z/A']:<10.3f}{result['E_bind (eV)']:<15.3f}{result['E_electron (eV)']:<20.3f}{result['Freq Ratio (f_electron / f_neutron)']:<15.3e}")
+    print(f"{result['Molecule']:<24}{result['Element']:<15}{result['Z/A']:<10.3f}{result['E_bind (eV)']:<15.3f}{result['E_electron (eV)']:<20.3f}{result['Freq Ratio (f_electron / f_neutron)']:<15.3e}")
