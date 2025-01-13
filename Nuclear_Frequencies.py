@@ -10184,7 +10184,7 @@ def calculate_molecule_properties(molecule):
     return molecule_properties
 
 results = []
-print(f"{'Molecule':<20}{'Molecule Cracking Frequency':<30}")
+print(f"{'Molecule':<20}{'Core-level electronic transitions(Hz)':<30}")
 for molecule in extensive_molecules:
     molecule_properties = calculate_molecule_properties(extensive_molecules[molecule])
     print(f"{molecule:<25}{calculate_cracking_frequency(molecule_properties['total_binding_energy']):.2e} Hz")
